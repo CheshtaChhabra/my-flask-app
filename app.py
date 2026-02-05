@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # --- CONFIGURATION ---
 # PASTE YOUR GOOGLE KEY HERE
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDkU2PGywC9sFY_jYeN8aFD9TpxtT3raIM"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyDeYT099qFbojqkxvI-ah1g54v2_tX2pcU"
 MY_SECRET_API_KEY = "12345"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
@@ -92,3 +92,4 @@ def honeypot():
 # --- RUN THE SERVER ---
 if __name__ == '__main__':
     app.run(port=5000)
+
